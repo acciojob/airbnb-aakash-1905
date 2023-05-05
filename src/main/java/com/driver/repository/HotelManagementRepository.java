@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.UUID;
 
-@Repository
+
 public class HotelManagementRepository {
     private HashMap<String,Hotel> hotelDb = new HashMap<>();
     private HashMap<Integer, User> userDb = new HashMap<>();
